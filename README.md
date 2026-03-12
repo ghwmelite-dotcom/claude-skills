@@ -1,6 +1,8 @@
-# Claude Skills
+# AI Coding Skills
 
-A curated collection of Claude Code skills for elite-level software engineering and algorithmic trading.
+A curated collection of elite-level AI coding skills for fullstack web/mobile engineering and MQL5 Expert Advisor trading systems.
+
+**Compatible with:** Claude Code, ChatGPT, Gemini, Copilot, Cursor, Windsurf, and any high-performing LLM that accepts system prompts or custom instructions.
 
 ## Categories
 
@@ -39,6 +41,16 @@ Complete Expert Advisor (EA) and algorithmic trading toolkit for MQL5 and beyond
 
 ## Usage
 
-These are [Claude Code skills](https://docs.anthropic.com/en/docs/claude-code/skills) — markdown files that give Claude specialized domain knowledge and engineering patterns.
+These skills are markdown files that give AI coding assistants specialized domain knowledge and elite engineering patterns. They work with any LLM that supports custom instructions or system prompts.
 
-To use a skill, place it in your `~/.claude/skills/` directory or reference it in your `CLAUDE.md`.
+### How to use with different platforms
+
+| Platform | How to apply |
+|----------|-------------|
+| **Claude Code** | Place in `~/.claude/skills/` or reference in your `CLAUDE.md` |
+| **ChatGPT** | Paste into Custom Instructions or use as a system prompt via the API |
+| **Gemini** | Add to `GEMINI.md` or use as system instructions in Gemini API |
+| **GitHub Copilot** | Add to `.github/copilot-instructions.md` in your repo |
+| **Cursor** | Add to `.cursor/rules/` directory or project-level rules |
+| **Windsurf** | Add to `.windsurfrules` or global AI rules |
+| **Other LLMs** | Use as a system prompt or prepend to your conversation context |
